@@ -8,9 +8,7 @@ export default function Home() {
       <Head>
         <title>Bonsai</title>
       </Head>
-      <Navbar />
       <Main />
-      <Footer />
     </>
   );
 }

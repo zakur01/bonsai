@@ -1,7 +1,28 @@
+import Message from "@/components/Message";
 export default function Messages() {
   return (
-    <div className="border-[1px] border-red-500">
-      <h1>Messages!</h1>
+    <div className="flex flex-col gap-8">
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
     </div>
   );
 }

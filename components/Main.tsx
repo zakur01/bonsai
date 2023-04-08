@@ -6,8 +6,8 @@ export default function Main() {
       <Head>
         <title>Bonsai</title>
       </Head>
-      <main className="flex flex-col items-center h-[calc(100vh-8rem)] border-[1px]">
-        <h1>Main</h1>
+      <main className="flex flex-col items-center min-h-[calc(100vh-8rem)] gap-4 mt-4">
+        <h1>Главная</h1>
         <Messages />
       </main>
     </>
