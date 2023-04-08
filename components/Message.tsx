@@ -1,3 +1,4 @@
+import Comments from "./Comments";
 export default function Message() {
   return (
     <div className="py-4 border-[1px] border-purple-300 border-opacity-25 rounded-md mx-4 flex flex-col items-center justify-center">
@@ -13,6 +14,7 @@ export default function Message() {
         className="w-48 sm:w-80 h-auto object-cover"
         alt=""
       />
+      <Comments />
     </div>
   );
 }
