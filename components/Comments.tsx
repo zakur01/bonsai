@@ -8,7 +8,7 @@ export default function Comments() {
         onClick={() => setVisible(!visible)}
         className="cursor-pointer sm:hover:scale-110 transition-all duration-200 my-4"
       >
-        Комментарии:{" "}
+        {visible ? "Скрыть комментарии" : "Показать комментарии"}
       </h1>
       <div className={visible ? "flex flex-col px-4" : "hidden"}>
         <Comment />
