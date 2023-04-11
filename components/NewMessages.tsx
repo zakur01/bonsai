@@ -1,6 +1,10 @@
 import { useState } from "react";
 export default function NewMessage() {
   const [visible, setVisible] = useState(false);
+  const SubmitMessage = (e) => {
+    e.preventDefault();
+    alert("Сообщение успешно отправлено");
+  };
   return (
     <div className="w-60">
       {visible ? (
@@ -19,13 +23,17 @@ export default function NewMessage() {
         </h1>
       )}
       {visible && (
-        <form action="submit" className="mt-4 flex flex-col gap-4 items-center">
+        <form
+          onSubmit={SubmitMessage}
+          action="submit"
+          className="mt-4 flex flex-col gap-4 items-center"
+        >
           <input
             type="text"
             name="message"
             id=""
             placeholder="Текст"
-            className="w-full md:w-96 p-[3px] pl-2 border-2 border-gray-600"
+            className="w-full text-black md:w-96 p-[3px] pl-2 border-2 border-gray-600"
           />
           <button
             type="submit"
