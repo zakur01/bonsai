@@ -1,7 +1,7 @@
 import { useState } from "react";
 export default function NewMessage() {
   const [visible, setVisible] = useState(false);
-  const SubmitMessage = (e) => {
+  const SubmitMessage = (e: any) => {
     e.preventDefault();
     alert("Сообщение успешно отправлено");
   };
