@@ -5,7 +5,7 @@ export default function Profile() {
       <Head>
         <title>Профиль @name@</title>
       </Head>
-      <div>
+      <div className="flex flex-col items-center h-[calc(100vh-8rem)] pt-8">
         <h1>Profile name</h1>
         <h1>Registration date</h1>
         <h1>Avatar?</h1>

@@ -10,3 +10,35 @@ body {
   height: 100vh;
   font-family: "Roboto Slab", serif;
 }
+.message_animation {
+  animation: message_animation 3s linear infinite;
+}
+@keyframes message_animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.message_animation_close {
+  animation: message_animation_close 6s linear infinite;
+}
+@keyframes message_animation_close {
+  0% {
+    opacity: 0;
+    color: black;
+  }
+  50% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 0;
+    color: black;
+  }
+}
