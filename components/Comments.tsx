@@ -1,4 +1,5 @@
 import { useState } from "react";
+import NewComment from "./NewComment";
 import Comment from "@/components/Comment";
 export default function Comments() {
   const [visible, setVisible] = useState(false);
@@ -17,6 +18,7 @@ export default function Comments() {
         <Comment />
         <Comment />
         <Comment />
+        <NewComment />
       </div>
     </div>
   );
