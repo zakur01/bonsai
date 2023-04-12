@@ -1,6 +1,6 @@
 import NewMessage from "./NewMessages";
 import Head from "next/head";
-import Messages from "./Messages";
+import Messages from "./Messages.jsx";
 export default function Main() {
   return (
     <>
